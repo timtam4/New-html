@@ -13,7 +13,7 @@ define(function (require, exports, module) {
      * Implementation
      */
     function loadhtml() {
-        template = require('text!html/html-template.html');
+        template = require('text!html-template.html');
       EditorManager.getCurrentFullEditor()._codeMirror.setValue(template);
     }
     /*
