@@ -23,7 +23,7 @@ CommandManager.register("New html", commandName, loadhtml);
     /*
      * Custom menu
      */
-var menu = Menus.addMenu("html", "edgedocks.custom.menu" );  
+var menu = Menus.addMenu("Html", "edgedocks.custom.menu" );  
  menu.addMenuItem(commandName)
 });
 
